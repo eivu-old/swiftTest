@@ -12,6 +12,9 @@
 		B7B8A5D01BF3CB3F002E536D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = B7B8A5CE1BF3CB3F002E536D /* MainMenu.xib */; };
 		B7B8A5DB1BF3CB3F002E536D /* eivuTest3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B8A5DA1BF3CB3F002E536D /* eivuTest3Tests.swift */; };
 		B7B8A5E61BF3CB3F002E536D /* eivuTest3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B8A5E51BF3CB3F002E536D /* eivuTest3UITests.swift */; };
+		B7B8A5F41BF3CB59002E536D /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = B7B8A5F31BF3CB59002E536D /* Podfile */; };
+		B7B8A5F71BF3CB97002E536D /* eivuTest3.m in Sources */ = {isa = PBXBuildFile; fileRef = B7B8A5F61BF3CB97002E536D /* eivuTest3.m */; };
+		DD0234858DD61EEA37B247F4 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 88D1F49CF96E23B2C3809287 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		88D1F49CF96E23B2C3809287 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7B8A5C71BF3CB3F002E536D /* eivuTest3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = eivuTest3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7B8A5CA1BF3CB3F002E536D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B7B8A5CC1BF3CB3F002E536D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -43,6 +47,11 @@
 		B7B8A5E11BF3CB3F002E536D /* eivuTest3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = eivuTest3UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7B8A5E51BF3CB3F002E536D /* eivuTest3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eivuTest3UITests.swift; sourceTree = "<group>"; };
 		B7B8A5E71BF3CB3F002E536D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7B8A5F31BF3CB59002E536D /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		B7B8A5F51BF3CB97002E536D /* eivuTest3-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "eivuTest3-Bridging-Header.h"; sourceTree = "<group>"; };
+		B7B8A5F61BF3CB97002E536D /* eivuTest3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = eivuTest3.m; sourceTree = "<group>"; };
+		EE02C655C5C0A0E6E49C3A70 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		F6CDD9B9CB0299EDB71D353C /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD0234858DD61EEA37B247F4 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,10 +83,13 @@
 		B7B8A5BE1BF3CB3F002E536D = {
 			isa = PBXGroup;
 			children = (
+				B7B8A5F31BF3CB59002E536D /* Podfile */,
 				B7B8A5C91BF3CB3F002E536D /* eivuTest3 */,
 				B7B8A5D91BF3CB3F002E536D /* eivuTest3Tests */,
 				B7B8A5E41BF3CB3F002E536D /* eivuTest3UITests */,
 				B7B8A5C81BF3CB3F002E536D /* Products */,
+				B95FD121AB5A8D8F2951C3AF /* Pods */,
+				C613A096B968E1B8D8D11E8E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,6 +110,8 @@
 				B7B8A5CC1BF3CB3F002E536D /* Assets.xcassets */,
 				B7B8A5CE1BF3CB3F002E536D /* MainMenu.xib */,
 				B7B8A5D11BF3CB3F002E536D /* Info.plist */,
+				B7B8A5F61BF3CB97002E536D /* eivuTest3.m */,
+				B7B8A5F51BF3CB97002E536D /* eivuTest3-Bridging-Header.h */,
 			);
 			path = eivuTest3;
 			sourceTree = "<group>";
@@ -119,6 +134,23 @@
 			path = eivuTest3UITests;
 			sourceTree = "<group>";
 		};
+		B95FD121AB5A8D8F2951C3AF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EE02C655C5C0A0E6E49C3A70 /* Pods.debug.xcconfig */,
+				F6CDD9B9CB0299EDB71D353C /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C613A096B968E1B8D8D11E8E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				88D1F49CF96E23B2C3809287 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,9 +158,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B7B8A5EA1BF3CB3F002E536D /* Build configuration list for PBXNativeTarget "eivuTest3" */;
 			buildPhases = (
+				4737A94F5D4FAB7C571851D0 /* Check Pods Manifest.lock */,
 				B7B8A5C31BF3CB3F002E536D /* Sources */,
 				B7B8A5C41BF3CB3F002E536D /* Frameworks */,
 				B7B8A5C51BF3CB3F002E536D /* Resources */,
+				316BF036747407DB682DECE1 /* Embed Pods Frameworks */,
+				0AFBD43A839CC24ABB10BD18 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -223,6 +258,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7B8A5F41BF3CB59002E536D /* Podfile in Resources */,
 				B7B8A5CD1BF3CB3F002E536D /* Assets.xcassets in Resources */,
 				B7B8A5D01BF3CB3F002E536D /* MainMenu.xib in Resources */,
 			);
@@ -244,11 +280,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0AFBD43A839CC24ABB10BD18 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		316BF036747407DB682DECE1 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4737A94F5D4FAB7C571851D0 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B7B8A5C31BF3CB3F002E536D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7B8A5F71BF3CB97002E536D /* eivuTest3.m in Sources */,
 				B7B8A5CB1BF3CB3F002E536D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -378,25 +463,32 @@
 		};
 		B7B8A5EB1BF3CB3F002E536D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE02C655C5C0A0E6E49C3A70 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = eivuTest3/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.evivu.eivuTest3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "eivuTest3/eivuTest3-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		B7B8A5EC1BF3CB3F002E536D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6CDD9B9CB0299EDB71D353C /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = eivuTest3/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.evivu.eivuTest3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "eivuTest3/eivuTest3-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -471,6 +563,7 @@
 				B7B8A5EC1BF3CB3F002E536D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B7B8A5ED1BF3CB3F002E536D /* Build configuration list for PBXNativeTarget "eivuTest3Tests" */ = {
 			isa = XCConfigurationList;
@@ -479,6 +572,7 @@
 				B7B8A5EF1BF3CB3F002E536D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B7B8A5F01BF3CB3F002E536D /* Build configuration list for PBXNativeTarget "eivuTest3UITests" */ = {
 			isa = XCConfigurationList;
@@ -487,6 +581,7 @@
 				B7B8A5F21BF3CB3F002E536D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
