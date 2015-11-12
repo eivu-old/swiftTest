@@ -19,12 +19,8 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 
     
     @IBAction func button(sender: AnyObject) {
-        var md5hash = "test"
-        md5hash = FileHash.md5HashOfFileAtPath("~/.screenrc")
-        // let filePathStr = filePath as CFStringRef
-//        let md5hash : CFStringRef = md5HashOfFileAtPath("~/.screenrc", 4096)
-        md5hash = "bla"
-        label.stringValue = "Yes! + \(md5hash)"
+        let md5hash = FileHash.md5HashOfFileAtPath("/Users/jinx/Downloads/duet-1.4.5.zip")
+        label.stringValue = "Yes! + \(md5hash)!"
     }
     func applicationDidFinishLaunching(aNotification: NSNotification) {
         // Insert code here to initialize your application

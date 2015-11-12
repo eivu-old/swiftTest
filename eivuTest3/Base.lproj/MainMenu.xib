@@ -689,7 +689,7 @@
                         </connections>
                     </button>
                     <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Wp6-Lk-kyI">
-                        <rect key="frame" x="192" y="244" width="37" height="17"/>
+                        <rect key="frame" x="54" y="242" width="349" height="34"/>
                         <animations/>
                         <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Label" id="abj-cw-HCd">
                             <font key="font" metaFont="system"/>
