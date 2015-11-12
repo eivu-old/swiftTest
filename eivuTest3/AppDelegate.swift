@@ -12,15 +12,14 @@ import Cocoa
 class AppDelegate: NSObject, NSApplicationDelegate {
 
     @IBOutlet weak var window: NSWindow!
-    
 
 
-    @IBOutlet weak var label: NSTextFieldCell!
+    @IBOutlet weak var label: NSTextField!
 
     
     @IBAction func button(sender: AnyObject) {
         let md5hash = FileHash.md5HashOfFileAtPath("/Users/jinx/Downloads/duet-1.4.5.zip")
-        label.stringValue = "Yes! + \(md5hash)!"
+        label.stringValue = "Yes! + \(md5hash)"
     }
     func applicationDidFinishLaunching(aNotification: NSNotification) {
         // Insert code here to initialize your application
